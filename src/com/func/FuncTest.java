@@ -44,6 +44,20 @@ public class FuncTest {
         System.out.println("The max value is " + result);
     }
 
+   public static void getMax(double... param) {
+        if(param.length == 0) {
+            System.out.println("不能不传入参数");
+            return;
+        }
+        double res = param[0];
+        for(double everyOne : param) {
+            if(everyOne > res) {
+                res = everyOne;
+            }
+        }
+        System.out.println("求得最大值为：" + res);
+    }
+
     /** 主方法 */
     public static void main(String[] args) {
         int i = 5;
@@ -54,5 +68,9 @@ public class FuncTest {
         double ki = max(2.4, 3.5);
         System.out.println( i + " 和 " + j + " 比较，最大值是：" + k);
         System.out.println( "比较大值是：" + ki);
+
+        getMax();
+        getMax(1.0, 22.0, 33.8, 2.12, 5.3);
+        getMax(new double[] {14.0, 22.0, 33.8, 2.12, 5.3, 34.3});
     }
 }
