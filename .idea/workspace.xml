@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9c2fcef-a493-4ad4-9da8-e2325d09f5e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/classLearn/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/classLearn/ExtendsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/classLearn/Mouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/classLearn/Penguin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/polymorphic/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/polymorphic/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/polymorphic/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/polymorphic/PloyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,24 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/arr/ArrayTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/forWhile/ForWhile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/forWhile/SwitchTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -80,11 +62,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/classLearn/Mouse.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/polymorphic/Animal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/polymorphic/Cat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/polymorphic/Dog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/polymorphic/PloyTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -128,6 +146,11 @@
         <option value="$PROJECT_DIR$/src/com/classLearn/Penguin.java" />
         <option value="$PROJECT_DIR$/src/com/classLearn/ExtendsTest.java" />
         <option value="$PROJECT_DIR$/src/com/classLearn/Mouse.java" />
+        <option value="$PROJECT_DIR$/src/com/classLearn/Polymorphic.java" />
+        <option value="$PROJECT_DIR$/src/com/polymorphic/Cat.java" />
+        <option value="$PROJECT_DIR$/src/com/polymorphic/Dog.java" />
+        <option value="$PROJECT_DIR$/src/com/polymorphic/Animal.java" />
+        <option value="$PROJECT_DIR$/src/com/polymorphic/PloyTest.java" />
       </list>
     </option>
   </component>
@@ -167,7 +190,7 @@
               <item name="testProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="classLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="polymorphic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -180,7 +203,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556809974387" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556811962568" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -199,7 +222,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExtendsTest">
+  <component name="RunManager" selected="Application.PloyTest">
     <configuration name="ArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.arr.ArrayTest" />
       <module name="testProject" />
@@ -226,12 +249,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForWhile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.forWhile.ForWhile" />
+    <configuration name="FuncTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.func.FuncTest" />
       <module name="testProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.forWhile.*" />
+          <option name="PATTERN" value="com.func.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -239,12 +262,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FuncTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.func.FuncTest" />
+    <configuration name="PloyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.polymorphic.PloyTest" />
       <module name="testProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.func.*" />
+          <option name="PATTERN" value="com.polymorphic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -267,11 +290,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PloyTest" />
         <item itemvalue="Application.ExtendsTest" />
         <item itemvalue="Application.FuncTest" />
         <item itemvalue="Application.ArrayTest" />
         <item itemvalue="Application.SwitchTest" />
-        <item itemvalue="Application.ForWhile" />
       </list>
     </recent_temporary>
   </component>
@@ -289,17 +312,18 @@
       <workItem from="1556511161648" duration="9063000" />
       <workItem from="1556555704954" duration="1445000" />
       <workItem from="1556557461946" duration="7110000" />
-      <workItem from="1556696022019" duration="2425000" />
+      <workItem from="1556696022019" duration="3673000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21521000" />
+    <option name="totallyTimeSpent" value="22769000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="738" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17043619" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17043619" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -309,7 +333,7 @@
       <window_info id="设计器" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32972136" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28482974" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33436534" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993808" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -487,10 +511,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/classLearn/Polymorphic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/classLearn/Mouse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/polymorphic/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/polymorphic/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/polymorphic/Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/polymorphic/PloyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
         </state>
       </provider>
     </entry>
