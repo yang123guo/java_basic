@@ -32,7 +32,7 @@ public class PloyTest {
         // 上面的方法是多态的实现
 
 
-        // 不用show执行同样的方法
+        // 下面的方法：不用show执行同样的方法
 
         // 向上转型
         Animal a = new Cat();
