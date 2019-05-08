@@ -24,13 +24,18 @@ public class ArrayListTest {
         // 第二种遍历，把链表变为数组相关的内容进行遍历
         String[] strArray = new String[list.size()];
         list.toArray(strArray);
-        for(int i = 0; i < strArray.length; i++) { //这里也可以改写为  foreach(String str:strArray)这种形式
+        for (int i = 0; i < strArray.length; i++) { //这里也可以改写为  foreach(String str:strArray)这种形式
             System.out.println(strArray[i]);
         }
 
+        //
+        for (int i = 0; i < list.size(); i++) { //这里也可以改写为  foreach(String str:strArray)这种形式
+            System.out.println(list.get(i));
+        }
+
         //第三种遍历 使用迭代器进行相关遍历
-        Iterator<String> ite=list.iterator();
-        while(ite.hasNext()) { // 判断下一个元素之后有值
+        Iterator<String> ite = list.iterator();
+        while (ite.hasNext()) { // 判断下一个元素之后有值
             System.out.println(ite.next());
         }
     }

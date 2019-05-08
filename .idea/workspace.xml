@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9c2fcef-a493-4ad4-9da8-e2325d09f5e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/generic/GenericClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/generic/GenericClassTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/generic/NoGenericClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/collect/ArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/collect/ArrayListTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +26,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/generic/GenericTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
+            <state relative-caret-position="420">
               <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -40,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/generic/GenericClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            <state relative-caret-position="240">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -49,17 +47,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/generic/NoGenericClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            <state relative-caret-position="255">
+              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/generic/GenericClassTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/generic/GenericClassTest.java">
+        <entry file="file://$PROJECT_DIR$/src/com/collect/ArrayListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+            <state relative-caret-position="344">
+              <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -113,7 +120,6 @@
         <option value="$PROJECT_DIR$/src/com/abst/Salary.java" />
         <option value="$PROJECT_DIR$/src/com/interf/Animal.java" />
         <option value="$PROJECT_DIR$/src/com/interf/MammalInt.java" />
-        <option value="$PROJECT_DIR$/src/com/collect/ArrayListTest.java" />
         <option value="$PROJECT_DIR$/src/com/collect/HashMapTest.java" />
         <option value="$PROJECT_DIR$/src/com/generic/GenericTest.java" />
         <option value="$PROJECT_DIR$/src/com/strict/Strict.java" />
@@ -121,6 +127,7 @@
         <option value="$PROJECT_DIR$/src/com/generic/GenericClass.java" />
         <option value="$PROJECT_DIR$/src/com/generic/NoGenericClass.java" />
         <option value="$PROJECT_DIR$/src/com/generic/GenericClassTest.java" />
+        <option value="$PROJECT_DIR$/src/com/collect/ArrayListTest.java" />
       </list>
     </option>
   </component>
@@ -137,6 +144,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,20 +169,18 @@
               <item name="testProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="generic" type="462c0819:PsiDirectoryNode" />
+              <item name="collect" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557199434311" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557328612500" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -192,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GenericClassTest">
+  <component name="RunManager" selected="Application.ArrayListTest">
     <configuration name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.collect.ArrayListTest" />
       <module name="testProject" />
@@ -260,11 +267,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayListTest" />
         <item itemvalue="Application.GenericClassTest" />
         <item itemvalue="Application.StrictTest" />
         <item itemvalue="Application.GenericTest" />
         <item itemvalue="Application.HashMapTest" />
-        <item itemvalue="Application.ArrayListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -287,17 +294,19 @@
       <workItem from="1557143613849" duration="2688000" />
       <workItem from="1557161207281" duration="1173000" />
       <workItem from="1557196723048" duration="2308000" />
+      <workItem from="1557207954115" duration="37000" />
+      <workItem from="1557212108284" duration="10000" />
+      <workItem from="1557326014890" duration="1014000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33292000" />
+    <option name="totallyTimeSpent" value="34353000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="738" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18012924" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18739903" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -524,13 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/collect/ArrayListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/arr/ArrayTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -595,23 +597,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/generic/GenericClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/generic/NoGenericClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/generic/GenericTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
+        <state relative-caret-position="420">
           <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -619,10 +607,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/generic/GenericClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/generic/NoGenericClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/generic/GenericClassTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        <state relative-caret-position="179">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/collect/ArrayListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
         </state>
       </provider>
     </entry>
