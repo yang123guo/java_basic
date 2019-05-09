@@ -33,8 +33,8 @@ public class ArrayListTest {
             System.out.println(list.get(i));
         }
 
-        //第三种遍历 使用迭代器进行相关遍历
-        Iterator<String> ite = list.iterator();
+        //第三种遍历 使用 迭代器 进行相关遍历
+        Iterator<String> ite = list.iterator();  // 获取迭代器
         while (ite.hasNext()) { // 判断下一个元素之后有值
             System.out.println(ite.next());
         }
